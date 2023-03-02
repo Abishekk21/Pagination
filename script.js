@@ -26,7 +26,6 @@ const nameCell = document.createElement("td");
 nameCell.textContent = data[i].name;
 const emailCell = document.createElement("td");
 emailCell.textContent = data[i].email;
-
 row.appendChild(idCell);
 row.appendChild(nameCell);
 row.appendChild(emailCell);
